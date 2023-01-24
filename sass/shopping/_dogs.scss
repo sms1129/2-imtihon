@@ -1,0 +1,47 @@
+.shop_hero {
+  // display: grid;
+  // grid-template-columns: repeat(4, 264px);
+  // gap: 2rem;
+  // margin-top: 36px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.dog1 {
+  align-items: center;
+  justify-content: center;
+  max-width: 280px;
+  width: 100%;
+  background: #fdfdfd;
+  box-shadow: 0px 4px 28px -2px rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+  margin-bottom: 30px;
+}
+.dog_text {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #00171f;
+  margin-top: 16px;
+  margin-bottom: 4px;
+}
+.dog_years {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  color: #667479;
+  margin-bottom: 4px;
+}
+.dog_narx {
+  margin-top: 40px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #00171f;
+}
+
+@media only screen and (max-width: 414px) {
+ .dog1 {
+  max-width: 140px;
+  margin-left: 12px;
+ }
+}
